@@ -1,7 +1,7 @@
 import streamlit as st
 from utils.model import predict, load
 
-st.title("Social Media Usage and Emotional Well-Being | ML | Random Forest Classifier")
+st.title("Social Media Usage and Emotional Well-Being | ML | Random Forest Classifier :iphone: :iphone:")
 st.caption("Mengklasifikasi Emosi Dominan pengguna berdasarkan aktifitas mereka dalam bersosial media.")
 
 col1, col2 = st.columns(2)
@@ -41,5 +41,5 @@ if st.button("Diagnose"):
     st.write("##### With Probability")
     st.bar_chart(chart_data)
     
-    st.write("by @nangdosan")
+    st.write("by @nangdosan with :purple_heart:")
  
