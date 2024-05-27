@@ -2,6 +2,11 @@ import streamlit as st
 from src.model import predict, load
 from src.llm import make_prompt, get_summary
 
+st.set_page_config(
+    page_title="Psychobot AI",
+    page_icon="random"
+)
+
 st.image("src/assets/LOGO.png")
 st.title("KENALI EMOSIMU SAAT BER-MEDIA SOSIAL")
 st.caption("Psychobot adalah sebuah sistem AI yang membantu kamu mengenali kondisi emosi dominan berdasarkan aktivitasmu di media sosial.")
