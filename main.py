@@ -41,7 +41,7 @@ data = {
     "Messages_Sent_Per_Day": [daily_messages]
 }
 
-model = load("./model/rf_model.pkl")
+model = load("./model/lgbm.pkl")
 
 # Click Event
 st.text("")
